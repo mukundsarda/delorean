@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mainPage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.4;
+	background-image: url('/images/back.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.mainPage {
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	backdrop-filter: blur(10px);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 40px;
+	flex-direction: column;
+}
+
+.header h2 {
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 56px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.header .mainlogo {
+	width: 100%;
+	filter: drop-shadow(0 0 0.8rem rgb(207, 211, 211));
+}
+
+.maps {
+	height: 220px;
+	width: 220px;
+}
+
+.choices {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.choice {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 70%;
+}
+
+.choice .choice-button button {
+	padding: 10px 20px;
+	background: black;
+	outline: none;
+	border-radius: 4px;
+	border: 2px solid white;
+	color: white;
+
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.className{
+	position: relative;
+}
+
+
+.findClass{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.findClass input{
+	margin: 20px;
+	padding: 10px 20px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid white;
+	font-size: 18px;
+	color: white;
+}
+
+
+.list{
+	position: absolute;
+	width: 220px;
+	max-height: 300px;
+	background: white;
+	left: 560px;
+	outline: 1px solid black;
+	border: 1px solid black;
+	overflow-y: scroll;
+}
+
+.list li{
+	margin: 5px;
+	cursor: pointer;
+}
+
+
+.path, .displayClass {
+	text-align: center;
+	margin: 20px;
+	font-size: 48px;
+	color: #f5f9ff;
+}
+
+.findRoute h4 {
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.findRoute {
+	padding: 0 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.search {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.search select {
+	font-size: 20px;
+	outline: none;
+	padding: 10px 20px;
+	color: rgb(255, 255, 255);
+	background: #050900;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	text-align: center;
+	border: 2px solid white;
+}
+
+.search-btn button {
+	padding: 14px 20px;
+	background: #050900;
+	border: 1 px solid white;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+.display {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	backdrop-filter: blur(8px);
+	width: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.buttons {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 40vh;
+	justify-content: space-between;
+}
+
+
+
+.pathElement {
+	font-size: 36px;
+	color: #f5f9ff;
+	display: inline-block;
+	margin: 20px 20px;
+}
+
+.secondButton button {
+	padding: 14px 30px;
+	background: #050900;
+	font-size: 16px;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	margin: 30px;
+	outline: none;
+	border: 2px solid white;
+}
+
+.ground {
+	margin-top: 40px;
+}
+
+
+.displayClass{
+	margin: 30px;
+	font-size: 30px;
+}
+
+.displayClass .classElement{
+	color: white;
+	font-size: 30px;
+	margin: 10px 20px;
+}
+
+.none {
+	display: none;
+}
