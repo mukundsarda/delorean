@@ -218,3 +218,32 @@
 	top: 646px;
 	left: 120px;
 }
+
+.ground47 {
+	height: 32px;
+	width: 96px;
+	top: 824px;
+	left: 120px;
+}
+
+.ground48 {
+	height: 53px;
+	width: 121px;
+	top: 540px;
+	left: 1206px;
+}
+
+.ground49 {
+	width: 124px;
+	height: 114px;
+	top: 506px;
+	left: 179px;
+}
+
+.ground62 {
+	width: 97px;
+	height: 38px;
+	top: 365px;
+	left: 442px;
+	transform: rotate(90deg);
+}
