@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Back To CLass</title>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="second.css" />
+	<link rel="stylesheet" href="first.css" />
+	<link rel="stylesheet" href="ground.css" />
+</head>
+
+<body class="noselect">
+	<div class="mainPage">
+		<div class="header">
+			<img src="" alt="" class="mainlogo" />
+			<h2>WELCOME TO JIIT-62</h2>
+		</div>
+		
+		<div class="choices ">
+			<img class="maps" src="pin.png" alt="" />
+			<div class="choice">
+				<div class="choice-button">
+					<button id="className" onclick="handlePages('className')" type="button">Search For events</button>
+				</div>
+				<div class="choice-button">
+					<button id="route" onclick="handlePages('findRoute')" type="button">Get a route to Your Classroom</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="className none">
+			<div class="findClass">
+					<input id="cls" type="text" id="roomNumber" oninput="handleSearch()" placeholder="Enter classroom...">
+				<div class="search-btn">
+					<button type="button" onclick="findclass()">Search</button>
+					<button type="button" onclick="goBack()">Back</button>
+				</div>
+			</div>
+			<ul id="myUL" class="list none" onload="createList()">
+			</ul>
+			<div id="displayClass" class="displayClass none">
+				Classroom Names : 
+			</div>
+		</div>
+		
+		<div class="findRoute none">
+			<h4>Find best path towards your classroom</h4>
+			<img class="maps" src="pin.png" alt="" />
+			<div class="search">
+				<div>
+					<select name="start" id="start" class="s">
+						<option value="">Select Starting Point</option>
+					</select>
+				</div>
+				<div>
+					<select name="end" id="end">
+						<option value="">Select Destination</option>
+					</select>
+				</div>
+				<div class="search-btn">
+					<button type="button" id="searchBtn">Search Path</button>
+				</div>
+
+				<div class="search-btn">
+					<button type="button" onclick="goBack()">Back</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
