@@ -1,0 +1,92 @@
+.groundFloor {
+	position: relative;
+	background-color: #000000;
+	border: 10px solid white;
+	height: 900px;
+	color: greenyellow;
+	width: 1480px;
+	padding: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.ground {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #fefdfd;
+	background-color: black;
+	color: greenyellow;
+}
+
+.ground52 {
+	color: greenyellow;
+	height: 53px;
+	width: 367px;
+	top: 538px;
+	left: 612px;
+}
+
+.ground50 {
+	height: 75px;
+	width: 96px;
+	left: 119px;
+	top: 745px;
+}
+
+.ground19 {
+	height: 152px;
+	width: 1420px;
+	top: 139px;
+	left: 30px;
+}
+
+.ground22 {
+	height: 80px;
+	width: 192px;
+	top: 335px;
+	left: 163px;
+}
+
+.ground51 {
+	height: 140px;
+	width: 95px;
+	top: 335px;
+	left: 617px;
+}
+
+.ground37 {
+	height: 140px;
+	width: 95px;
+	top: 335px;
+	left: 118px;
+}
+
+.ground22 {
+	height: 140px;
+	width: 95px;
+	top: 335px;
+	left: 218px;
+}
+
+.ground32 {
+	height: 126px;
+	width: 84px;
+	top: 579.5px;
+	left: 26px;
+}
+
+.ground9 {
+	height: 140px;
+	width: 95px;
+	top: 335px;
+	left: 720px;
+}
+
+.ground10 {
+	height: 53px;
+	width: 138px;
+	top: 538px;
+	left: 307.5px;
+}
