@@ -1,0 +1,45 @@
+.secondFloor {
+	position: relative;
+	background-color: black;
+	border: 10px solid white;
+	height: 700px;
+	width: 1480px;
+	color: greenyellow;
+	padding: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+.room {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #ffffff;
+	position: absolute;
+	box-sizing: border-box;
+	background: black;
+	color: greenyellow;
+}
+.room1 {
+	width: 250px;
+	height: 328px;
+	left: 232px;
+	top: 343px;
+}
+.room2 {
+	width: 65px;
+	height: 60px;
+	left: 420px;
+	top: 133px;
+}
+.room3 {
+	width: 65px;
+	height: 60px;
+	left: 230px;
+	top: 202px;
+}
+.room4 {
+	width: 51px;
+	height: 56px;
+	left: 232px;
+	top: 270px;
+}
