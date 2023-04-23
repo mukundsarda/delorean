@@ -44,3 +44,56 @@
 	top: 219px;
 	left: 230px;
 }
+
+.rectangle4 {
+	height: 53px;
+	width: 171px;
+	top: 277px;
+	left: 296px;
+}
+.rectangle5 {
+	height: 73px;
+	width: 51px;
+	top: 159px;
+	left: 230px;
+	display: none;
+}
+.rectangle38 {
+	height: 36px;
+	width: 46px;
+	top: 130px;
+	left: 699px;
+	display: none;
+}
+.rectangle39 {
+	height: 53px;
+	width: 253px;
+	top: 277px;
+	left: 625px;
+}
+.rectangle6 {
+	height: 90px;
+	width: 90px;
+	top: 100px;
+	left: 414px;
+}
+.rectangle7 {
+	height: 90px;
+	width: 90px;
+	top: 100px;
+	left: 600px;
+}
+.rectangle8 {
+	height: 57px;
+	width: 46px;
+	top: 164px;
+	left: 699px;
+	display: none;
+}
+.rectangle9 {
+	height: 110px;
+	width: 46px;
+	top: 270px;
+	display: none;
+	left: 699px;
+}
