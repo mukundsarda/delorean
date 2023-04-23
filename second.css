@@ -1,6 +1,6 @@
 .secondFloor {
 	position: relative;
-	background-color: black;
+	background-color: rgb(156, 130, 100);
 	border: 10px solid white;
 	height: 700px;
 	width: 1480px;
@@ -43,7 +43,6 @@
 	left: 232px;
 	top: 270px;
 }
-
 .room5 {
 	width: 53px;
 	height: 35px;
