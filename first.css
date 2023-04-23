@@ -1,6 +1,6 @@
 .firstFloor {
 	position: relative;
-	background-color: black;
+	background-color: rgb(156, 130, 100);
 	color: greenyellow;
 	border: 10px solid white;
 	height: 680px;
@@ -44,7 +44,6 @@
 	top: 219px;
 	left: 230px;
 }
-
 .rectangle4 {
 	height: 53px;
 	width: 171px;
@@ -97,7 +96,6 @@
 	display: none;
 	left: 699px;
 }
-
 .rectangle10 {
 	height: 41px;
 	width: 61px;
@@ -234,7 +232,6 @@
 	top: 281px;
 	left: 1276px;
 }
-
 .rectangle31 {
 	height: 70px;
 	width: 88px;

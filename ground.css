@@ -1,6 +1,6 @@
 .groundFloor {
 	position: relative;
-	background-color: #000000;
+	background-color: rgb(156, 130, 100);
 	border: 10px solid white;
 	height: 900px;
 	color: greenyellow;
@@ -21,7 +21,7 @@
 }
 
 .ground52 {
-	color: greenyellow;
+	color: green;
 	height: 53px;
 	width: 367px;
 	top: 538px;

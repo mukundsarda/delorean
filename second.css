@@ -1,6 +1,6 @@
 .secondFloor {
 	position: relative;
-	background-color: black;
+	background-color: rgb(156, 130, 100);
 	border: 10px solid white;
 	height: 700px;
 	width: 1480px;
@@ -42,4 +42,211 @@
 	height: 56px;
 	left: 232px;
 	top: 270px;
+}
+.room5 {
+	width: 53px;
+	height: 35px;
+	left: 230px;
+	top: 159px;
+}
+.room6 {
+	width: 118px;
+	height: 21px;
+	left: 1265px;
+	top: 276px;
+}
+.room7 {
+	width: 65px;
+	height: 60px;
+	left: 555px;
+	top: 133px;
+}
+.room8 {
+	width: 46px;
+	height: 57px;
+	left: 1266px;
+	top: 611px;
+}
+.room9 {
+	width: 14px;
+	height: 80px;
+	left: 534px;
+	top: 134px;
+}
+.room10 {
+	width: 65px;
+	height: 60px;
+	left: 420px;
+	top: 200px;
+}
+.room11 {
+	width: 113px;
+	height: 127px;
+	left: 302px;
+	top: 133px;
+}
+.room12 {
+	width: 135px;
+	height: 267px;
+	left: 1265px;
+	top: 336px;
+}
+.room13 {
+	width: 90px;
+	height: 90px;
+	left: 72px;
+	top: 584px;
+}
+.room14 {
+	width: 135px;
+	height: 43px;
+	left: 1266px;
+	top: 128px;
+}
+.room15 {
+	width: 90px;
+	height: 90px;
+	left: 72px;
+	top: 470px;
+}
+.room16 {
+	width: 250px;
+	height: 328px;
+	left: 556px;
+	top: 342px;
+}
+.room17 {
+	width: 65px;
+	height: 60px;
+	left: 554px;
+	top: 199px;
+}
+.room18 {
+	width: 113px;
+	height: 127px;
+	left: 626px;
+	top: 132.02px;
+}
+.room19 {
+	width: 65px;
+	height: 60px;
+	left: 745px;
+	top: 198px;
+}
+.room20 {
+	width: 65px;
+	height: 60px;
+	left: 745px;
+	top: 133px;
+}
+.room21 {
+	width: 65px;
+	height: 60px;
+	left: 897px;
+	top: 131px;
+	
+}
+.room22 {
+	width: 86px;
+	height: 127px;
+	left: 897px;
+	top: 131.02px;
+}
+.room23 {
+	width: 86px;
+	height: 127px;
+	left: 990px;
+	top: 131px;
+}
+.room24 {
+	width: 65px;
+	height: 60px;
+	left: 1082px;
+	top: 131px;
+}
+.room25 {
+	height: 328px;
+	width: 250px;
+	left: 897px;
+	top: 340px;
+}
+.room26 {
+	width: 70px;
+	height: 70px;
+	left: 897px;
+	top: 598px;
+}
+.room27 {
+	width: 135px;
+	height: 79px;
+	left: 1266px;
+	top: 176px;
+}
+.room28 {
+	width: 70px;
+	height: 70px;
+	left: 412px;
+	top: 601px;
+}
+.room29 {
+	width: 70px;
+	height: 70px;
+	left: 232px;
+	top: 601px;
+}
+.room30 {
+	width: 70px;
+	height: 70px;
+	left: 736px;
+	top: 600px;
+}
+.room31 {
+	width: 70px;
+	height: 70px;
+	left: 556px;
+	top: 601px;
+}
+.room32 {
+	width: 120px;
+	height: 130px;
+	left: 42px;
+	top: 342px;
+}
+.room33 {
+	width: 65px;
+	height: 60px;
+	left: 1082px;
+	top: 198px;
+}
+.room34 {
+	width: 65px;
+	height: 60px;
+	left: 230px;
+	top: 133px;
+}
+.room35 {
+	width: 118px;
+	height: 21px;
+	left: 896px;
+	top: 291px;
+}
+.room36 {
+	width: 27px;
+	height: 118px;
+	left: 87px;
+	top: 246px;
+	transform: rotate(-90deg);
+}
+.room37 {
+	width: 120px;
+	height: 130px;
+	left: 40px;
+	top: 133px;
+}
+
+.room38 {
+	width: 118px;
+	height: 21px;
+	left: 1266px;
+	top: 281px;
 }
