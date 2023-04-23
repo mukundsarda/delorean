@@ -5,7 +5,8 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Back To CLass</title>
+	<title>CampusNav</title>
+    <link rel="icon" type="image/x-icon" href="/images/car.png" />
 	<link rel="stylesheet" href="main.css" />
 	<link rel="stylesheet" href="second.css" />
 	<link rel="stylesheet" href="first.css" />
@@ -13,14 +14,18 @@
 </head>
 
 <body class="noselect">
+	<div class="BACK">
+		<img src="" alt="" />
+	</div>
 	<div class="mainPage">
 		<div class="header">
 			<img src="" alt="" class="mainlogo" />
 			<h2>WELCOME TO JIIT-62</h2>
+			<h4>CampusNav is a web application designed to help new students or anyone who is new or has lost their way in JIIT Noida</h4>
 		</div>
 		
 		<div class="choices ">
-			<img class="maps" src="/images/car.png" alt="" />
+			<img class="maps" src="http://www.jiit.ac.in/jiit/ETTIC/assets/img/jiit_logo.png" alt="" />
 			<div class="choice">
 				<div class="choice-button">
 					<button id="className" onclick="handlePages('className')" type="button">Search For events</button>
@@ -70,5 +75,127 @@
 			</div>
 		</div>
 	</div>
-	
-	
+
+	<div class="display none">
+		<div class="buttons">
+			<div id="path" class="path">
+				<strong>Intermediate Classroom List : </strong>
+			</div>
+			
+			<div class="secondButton">
+				<button type="button" onclick="showOnMap('open')">Show on Map</button>
+			</div>
+
+			<div class="secondButton">
+				<button type="button" onclick="goBack()">Back to Home</button>
+			</div>
+		</div>
+
+		<div id="ground" class="groundFloor none">
+			<div class="blur"></div>
+			<h1>Ground Floor</h1>
+			<div id="G1" class="ground ground24">G1</div>
+			<div id="G2" class="ground ground12">G2</div>
+			<div id="G3" class="ground ground26">G3</div>
+			<div id="G4" class="ground ground9">G4</div>
+			<div id="G5" class="ground ground51">G5</div>
+			<div id="G6" class="ground ground17">G6</div>
+			<div id="G7" class="ground ground36">G7</div>
+			<div id="G8" class="ground ground22">G8</div>
+			<div id="G9" class="ground ground37">G9</div>
+			<div id="LT-1" class="ground ground28">LT-1</div>
+			<div id="LT-2" class="ground ground14">LT-2</div>
+			<div id="LT-3" class="ground ground15">LT-3</div>
+			<div id="PRINT-SHOP" class="ground ground49">PRINT-SHOP</div>
+			<div id="UNIFORM-SHOP" class="ground ground32">UNIFORM-SHOP</div>
+			<div id="HSS-DEPARTMENT" class="ground ground46">HSS-DEPARTMENT</div>
+			<div id="LANGUAGE-LAB" class="ground ground61">Language Lab</div>
+			<div id="HOUSE-KEEPING" class="ground ground45">HOUSE KEEPING</div>
+			<div id="WASHROOM-G1" class="ground ground33">WASHROOM</div>
+			<div id="WASHROOM-LT3" class="ground ground50">WASHROOM</div>
+			<div id="WASHROOM-LT2" class="ground ground39">WASHROOM</div>
+			<div id="WASHROOM-LT1" class="ground ground27">WASHROOM</div>
+			<div id="WASHROOM-LL" class="ground ground29">WASHROOM</div>
+			<div id="RECEPTION" class="ground ground42">RECEPTION</div>
+			<div id="STAIRS-G6" class="ground ground62">STAIRS</div>
+			<div id="STAIRS-PS" class="ground ground10">STAIRS</div>
+			<div id="STAIRS-LT2" class="ground ground52">STAIRS</div>
+			<div id="STAIRS-R" class="ground ground48">STAIRS</div>
+			<div id="ENG-DEPT" class="ground ground322">ENGENEERING DEPT</div>
+			<div id="GROUND" class="ground ground19">GROUND</div>
+		</div>
+
+		<div id="firstFloor" class="firstFloor none">
+			<h1>First Floor</h1>
+			<div id="FF1" class="rectangle rectangle24">FF1</div>
+			<div id="FF2" class="rectangle rectangle22">FF2</div>
+			<div id="FF3" class="rectangle rectangle21">FF3</div>
+			<div id="FF4" class="rectangle rectangle20">FF4</div>
+			<div id="FF5" class="rectangle rectangle18">FF5</div>
+			<div id="FF6" class="rectangle rectangle7">FF6</div>
+			<div id="FF7" class="rectangle rectangle6">FF7</div>
+			<div id="FF8" class="rectangle rectangle36">FF8</div>
+			<div id="FF9" class="rectangle rectangle37">FF9</div>
+			<div id="BIOTECH-LAB-1" class="rectangle rectangle28">BIOTECH LAB 1</div>
+			<div id="BIOTECH-LAB-2" class="rectangle rectangle12">BIOTECH LAB 2</div>
+			<div id="BIOTECH-DEPARTMENT-1" class="rectangle rectangle41">BIOTECH DEPARTMENT</div>
+			<div id="TELEPHONE-EXCHANGE" class="rectangle rectangle34">TELEPHONE EXCHANGE</div>
+			<div id="MATHS-DEPARTMENT-1" class="rectangle rectangle42">MATHS DEPARTMENT</div>
+			<div id="ELECTRICAL-AND-MACHINE" class="rectangle rectangle32">ELECTRICAL-AND-MACHINE</div>
+			<div id="TECHNOLOGY-SOLUTION-FOR-SOIL-AND-WATER" class="rectangle rectangle3">TECHNOLOGY-SOLUTION-FOR-SOIL-AND-WATER</div>
+			<div id="WASHROOM-BD" class="rectangle rectangle31">WASHROOM</div>
+			<div id="WASHROOM-MF" class="rectangle rectangle33">WASHROOM</div>
+			<div id="WASHROOM-BT1" class="rectangle rectangle29">WASHROOM</div>
+			<div id="WASHROOM-BT2" class="rectangle rectangle43">WASHROOM</div>
+			<div id="WASHROOM-BT3" class="rectangle rectangle13">WASHROOM</div>
+			<div id="WASHROOM-BT4" class="rectangle rectangle46">WASHROOM</div>
+			<div id="STAIRS-S1" class="rectangle rectangle45">STAIRS</div>
+			<div id="STAIRS-S2" class="rectangle rectangle4">STAIRS</div>
+			<div id="STAIRS-S3" class="rectangle rectangle39">STAIRS</div>
+			<div id="STAIRS-S4" class="rectangle rectangle26">STAIRS</div>
+			<div id="STAIRS-S5" class="rectangle rectangle30">STAIRS</div>
+			<div id="STAIRS-S6" class="rectangle rectangle48">STAIRS</div>
+			
+		</div>
+		<div id="SecondFloor" class="secondFloor none">
+			<h1>Second Floor</h1>
+			<div id="TS1" class="room room33">TS1</div>
+			<div id="TS2" class="room room24">TS2</div>
+			<div id="TS5" class="room room19">TS5</div>
+			<div id="TS6" class="room room20">TS6</div>
+			<div id="TS7" class="room room7">TS7</div>
+			<div id="TS8" class="room room17">TS8</div>
+			<div id="TS9" class="room room10">TS9</div>
+			<div id="TS10" class="room room2">TS10</div>
+			<div id="TS11" class="room room34">TS11</div>
+			<div id="TS12" class="room room3">TS12</div>
+			<div id="CS-1" class="room room23">CS-1</div>
+			<div id="CS-2" class="room room22">CS-2</div>
+			<div id="CS-3" class="room room18">CS-3</div>
+			<div id="CS-4" class="room room11">CS-4</div>
+			<div id="PHYSICS-LAB" class="room room1">PHYSICS LAB</div>
+			<div id="EDGER_F_CODD_HALL" class="room room25">EDGER_F_CODD_HALL</div>
+			<div id="PHD" class="room room16">PHD</div>
+			<div id="HSS-DEPARTMENT-2" class="room room32">HSS AND PHYSICS DEPARTMENT</div>
+			<div id="COMMUNICATION-LAB" class="room room37">COMMUNICATION LAB</div>
+			<div id="TNP-DEPARTMENT" class="room room12">TNP DEPARTMENT</div>
+			<div id="SAMADHAN-SAMBHAG" class="room room27">SAMADHAN SAMBHAG</div>
+			<div id="WASHROOM-TS2" class="room room14">WASHROOM</div>
+			<div id="WASHROOM-TP" class="room room8">WASHROOM</div>
+			<div id="WASHROOM-H" class="room room26">WASHROOM</div>
+			<div id="WASHROOM-P1" class="room room30">WASHROOM</div>
+			<div id="WASHROOM-P2" class="room room31">WASHROOM</div>
+			<div id="WASHROOM-PL1" class="room room28">WASHROOM</div>
+			<div id="WASHROOM-PL2" class="room room29">WASHROOM</div>
+			<div id="WASHROOM-W" class="room room15">WASHROOM</div>
+			<div id="STAIR-F1" class="room room36">WASHROOM</div>
+			<div id="STAIR-F2" class="room room35">WASHROOM</div>
+			<div id="STAIR-F3" class="room room6">WASHROOM</div>
+		</div>
+	</div>
+
+	<script src="rooms.js"></script>
+	<script src="mapping.js"></script>
+</body>
+
+</html>
