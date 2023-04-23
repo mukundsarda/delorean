@@ -1,0 +1,46 @@
+.firstFloor {
+	position: relative;
+	background-color: black;
+	color: greenyellow;
+	border: 10px solid white;
+	height: 680px;
+	width: 1480px;
+	padding: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+.rectangle {
+	position: absolute;
+	border: 2px solid #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: greenyellow;
+	background-color: black;
+}
+.rectangle37 {
+	height: 90px;
+	width: 90px;
+	left: 214px;
+	top: 100px;
+}
+.rectangle2 {
+	height: 36px;
+	width: 71px;
+	top: 133px;
+	left: 317px;
+	display: none;
+}
+.rectangle3 {
+	height: 98px;
+	width: 84px;
+	top: 422px;
+	left: 46px;
+}
+.rectangle32 {
+	height: 94px;
+	width: 51px;
+	top: 219px;
+	left: 230px;
+}
