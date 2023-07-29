@@ -20,7 +20,7 @@ To install CampusNav on your local machine, follow these steps:
    npm install
    ```
    
-3. Start the server by running the live server
+3. Start the server by running the live server or by opening index.html file.
    
 4. Open your web browser and navigate to `http://localhost:3000` to access CampusNav.
 
