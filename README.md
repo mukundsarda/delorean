@@ -1,4 +1,4 @@
-# CampusNav
+# CampusNav (Hackathon project)
 ## Back To The Class (Class Finder)
 
 CampusNav is a web application designed to help new students or anyone who is new or has lost their way in JIIT Noida. It provides an interactive map of the campus buildings, locations, and landmarks. The application helps guide people through the college and tells them the routes. The user can click on any location on the map to view a photo of that location. The user can also select the starting and destination points, and the application will show the route.
