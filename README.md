@@ -36,6 +36,15 @@ CampusNav has the following features:
 
 We welcome contributions from the open source community. If you would like to contribute to CampusNav, please create a pull request. Please include a detailed description of the changes you are proposing and the reasons for them.
 
+To contribute first fork this repo and clone it locally using
+```
+git clone <forked repo ssh link>
+```
+Then open the project in your preferred code editor and run the index.html file
+
+Then you can do the required changes and make the pull request.
+No special commits requirement**
+
 ## License
 
 CampusNav is released under the MIT License. See the `LICENSE` file for details.
